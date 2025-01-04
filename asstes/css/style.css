@@ -1,57 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 *{
-    margin: 0%;
-    padding: 0%;
-    list-style-type: none;
-    box-sizing: border-box;
-    text-decoration: none;
-}
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style-type: none;
+        box-sizing: border-box;
+    }
 
-.container {
-    width: 1140px;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-left: -12px;
-    padding-right: -12px;
-}
 
-.display-flex {
-    display: flex;
-}
-.align-items-center {
-    align-items: center;
-}
-.min-vh-100 {
-    min-height: 100vh;
-}
-.justify-content-center {
-    justify-content: center;
-}
-.heading-1 {
-    font-family: "Rubik",sans-serif;
-        font-size: 35px;
-        font-weight: 500;
-        line-height: 50px;
+    /* video section */
+    .container {
+        max-width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .gap-50 {
+        gap: 50px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .py-30 {
+        padding-top: 109px;
+        padding-right: 30px;
+    }
+
+    .d-flex {
+        display: flex;
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .justify-content-center {
+        justify-content: center;
+    }
+
+    .relative {
+        position: relative;
+    }
+
+    .slick-next-arrow {
+        position: absolute;
+        right: 45px;
+        top: 165%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    .slick-prev-arrow {
+        position: absolute;
+        left: 10px;
+        top: 165%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    .developer-name {
+        font-family: "Inter", serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 23.4px;
         text-align: center;
-        color: rgba(11, 19, 42, 1);
-       
-}
+        color: rgba(19, 19, 19, 1);
+        padding-top: 12px;
+    }
 
-.para-1 {
-    font-family: "Rubik",sans-serif;
+    .java-developer {
+        font-family: "Inter", serif;
         font-size: 16px;
         font-weight: 400;
-        line-height: 30px;
+        line-height: 24px;
         text-align: center;
-        color: rgba(79, 86, 101, 1);
-        padding-top: 10px;
-     
-}
+        color: rgba(19, 19, 19, 1);
+        opacity: 60%;
+        padding-top: 8px;
+    }
+
+    .svg-btn {
+        position: absolute;
+        left: 10px;
+        top: 19%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
